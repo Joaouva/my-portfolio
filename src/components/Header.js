@@ -19,13 +19,12 @@ class Header extends React.Component {
 								options={{
 									autoStart: true,
 									loop: true,
-									delay: 200,
+									delay: 100,
 								}}
 								onInit={(typewriter) => {
 									typewriter
 										.typeString("<h1> Hi, I'm João.</h1>")
 										.callFunction(() => {
-											console.log("String typed out!");
 										})
 										.pauseFor(200)
 										.deleteChars(13)
@@ -41,9 +40,6 @@ class Header extends React.Component {
 											"<h1>I love to Develop.</h1>"
 										)
 										.callFunction(() => {
-											console.log(
-												"All strings were deleted"
-											);
 										})
 										.start();
 								}}
