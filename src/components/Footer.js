@@ -7,7 +7,7 @@ class Footer extends React.Component {
 		return (
 			<div className="footer" id="footer">
 					<h2>Get in touch!</h2>
-				<div className="social-media-icons">
+				<div className="icons">
 					<a href="https://github.com/Joaouva">
 						<img
 							className="social-icon"
