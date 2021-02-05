@@ -12,7 +12,8 @@
 
 .typewriter-section {
   height: 13%;
-  padding: 2%
+  padding: 2%;
+  margin-bottom: 2%;
 }
 
 .typewriter {
@@ -21,18 +22,18 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 
 .header-text-div {
-  margin-top: 15%;
+  margin-top: 4%;
 }
 
 .header-section h1 {
   text-align: center;
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 2px !important;
 }
 .header-section h2 {
@@ -55,7 +56,6 @@
  border-radius: 60%;
  border: 1px solid black;
  margin-bottom: 2em;
- margin-top: 2em;
 }
 
 .scrolldown-wrapper {

@@ -21,7 +21,7 @@ class AboutMe extends React.Component {
 							I decided to switch my career and persuit my long
 							lost love, develop things for the web and became a
 							Web Developer...and look at me now with my own
-							website :).<br></br> Gratuated @ Ironhack, I'm now a
+							website!<br></br> Gratuated @ Ironhack, I'm now a
 							proud Web Developer with a good knowlodge of
 							front-end and back-end technologies with a huge
 							willing to learn more! I like to fix the litle
