@@ -10,21 +10,21 @@ class Footer extends React.Component {
 				<div className="icons">
 					<a href="https://github.com/Joaouva">
 						<img
-							className="social-icon"
+							className="icon"
 							src="../../images/GitHub_footer.png"
 							alt="My Github"
 						/>
 					</a>
 					<a href="https://www.linkedin.com/in/joaouva/">
 						<img
-							className="social-icon"
+							className="icon"
 							src="../../images/linkedin_footer.png"
 							alt="My Linkedin"
 						/>
 					</a>
 					<a href="mailto: joaouva@gmail.com">
 						<img
-							className="social-icon"
+							className="icon"
 							src="../../images/email_footer.png"
 							alt="My email"
 						/>
