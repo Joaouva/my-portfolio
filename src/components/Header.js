@@ -1,0 +1,83 @@
+import React from "react";
+import Typewriter from "typewriter-effect";
+import "./Header.css";
+
+
+class Header extends React.Component {
+
+	render() {
+        return (
+			<div>
+				<div className="header-section">
+					<div className="avatar">
+						<img src="../../images/JU.jpg" alt="Avatar" />
+					</div>
+					<section className="typewriter-section">
+						<div className="typewriter">
+							<div></div>
+							<Typewriter
+								options={{
+									autoStart: true,
+									loop: true,
+									delay: 200,
+								}}
+								onInit={(typewriter) => {
+									typewriter
+										.typeString("<h1> Hi, I'm João.</h1>")
+										.callFunction(() => {
+											console.log("String typed out!");
+										})
+										.pauseFor(200)
+										.deleteChars(13)
+										.typeString(
+											"<h1>I'm a Web Developer.</h1>"
+										)
+										.pauseFor(200)
+										.deleteChars(20)
+										.typeString("<h1>I'm creative.</h1>")
+										.pauseFor(200)
+										.deleteChars(13)
+										.typeString(
+											"<h1>I love to Develop.</h1>"
+										)
+										.callFunction(() => {
+											console.log(
+												"All strings were deleted"
+											);
+										})
+										.start();
+								}}
+							/>
+						</div>
+						<div className="header-text-div">
+							<h2>
+								Welcome!
+							</h2>
+							<h2>Scroll down to know more about me</h2>
+							<div className="scrolldown-wrapper">
+								<div className="scrolldown">
+									<svg height="30" width="10">
+										<circle
+											className="scrolldown-p1"
+											cx="5"
+											cy="15"
+											r="2"
+										/>
+										<circle
+											className="scrolldown-p2"
+											cx="5"
+											cy="15"
+											r="2"
+										/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		);
+	}
+}
+
+export default Header;
