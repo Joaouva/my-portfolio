@@ -15,7 +15,7 @@ class AboutMe extends React.Component {
 				<div className="about-main-div">
 					<div className="about-text">
 						<h4 className="skills-title">About Me</h4>
-						<hr className="tilte-line"></hr>
+						<hr className="sub-title-hr"></hr>
 						<p>
 							After a decade working on sales and managment roles
 							I decided to switch my career and persuit my long
