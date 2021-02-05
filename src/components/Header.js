@@ -49,31 +49,29 @@ class Header extends React.Component {
 								}}
 							/>
 						</div>
-						<div className="header-text-div">
-							<h2>
-								Welcome!
-							</h2>
-							<h2>Scroll down to know more about me</h2>
-							<div className="scrolldown-wrapper">
-								<div className="scrolldown">
-									<svg height="30" width="10">
-										<circle
-											className="scrolldown-p1"
-											cx="5"
-											cy="15"
-											r="2"
-										/>
-										<circle
-											className="scrolldown-p2"
-											cx="5"
-											cy="15"
-											r="2"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
 					</section>
+					<div className="header-text-div">
+						<h2>Welcome!</h2>
+						<h3>Scroll down to know more about me</h3>
+					</div>
+					<div className="scrolldown-wrapper">
+						<div className="scrolldown">
+							<svg height="30" width="10">
+								<circle
+									className="scrolldown-p1"
+									cx="5"
+									cy="15"
+									r="2"
+								/>
+								<circle
+									className="scrolldown-p2"
+									cx="5"
+									cy="15"
+									r="2"
+								/>
+							</svg>
+						</div>
+					</div>
 				</div>
 			</div>
 		);

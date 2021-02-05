@@ -11,29 +11,37 @@
 
 
 .typewriter-section {
-  height: fit-content;
+  height: 13%;
 }
 
 .typewriter {
   width: fit-content;
-  height: 5vw !important;
+  height: 2vw !important;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 10%;
 }
 
+
 .header-text-div {
-  height: 5vw;
+  margin-top: 90px;
 }
 
 .header-section h1 {
   text-align: center;
   color: white;
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 2px !important;
 }
 .header-section h2 {
+  text-align: center;
+  color:gainsboro;
+  font-size: 2em;
+  width: 100%;
+}
+
+.header-section h3 {
   text-align: center;
   color:gainsboro;
   font-size: 1em;
@@ -50,18 +58,18 @@
 }
 
 .scrolldown-wrapper {
-	left: 50%;
-	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	bottom: 0;
-	transform: translate(-50%, -50%);
+	margin-top: 10px;
 }
   
 .scrolldown {
 	border: 2px solid #FFFFFF;
 	border-radius: 30px;
 	height: 46px;
-	margin: 0 auto 8px;
+	margin: 0 auto;
 	text-align: center;
 	width: 30px;
 }
