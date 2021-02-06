@@ -7,7 +7,7 @@ class Header extends React.Component {
 
 	render() {
         return (
-			<div>
+			<div className="header-component">
 				<div className="header-section">
 					<div className="avatar">
 						<img src="../../images/JU.jpg" alt="Avatar" />
