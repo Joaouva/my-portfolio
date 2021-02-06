@@ -5,8 +5,9 @@ import { Button }from "react-bootstrap";
 
 
 class AboutMe extends React.Component {
-	render() {
-        return (
+
+		render() {
+		return (
 			<div className="about-component">
 				<h1 className="title" id="profile">
 					Profile
@@ -17,15 +18,15 @@ class AboutMe extends React.Component {
 						<h4 className="skills-title">About Me</h4>
 						<p>
 							After a decade working on sales and managment roles
-							I decided to switch my career and persuit my long
+							I decided to switch my career and pursuit my long
 							lost love, develop things for the web and became a
 							Web Developer...and look at me now with my own
-							website!<br></br> Graduaded @ Ironhack, I'm now a
-							proud Web Developer with a good knowlodge of
+							website!<br></br> Graduated @ Ironhack, I'm now a
+							proud Web Developer with a good knowledge of
 							front-end and back-end technologies with a huge
 							drive to learn more! I like to fix the litle details
 							and build optmized web apps that work on any device
-							with new features that can amaze me. I particually
+							with new features that can amazes everyone. I particually
 							love to work in a team and develop great things
 							together. It's always better to celebrate success
 							with others!
@@ -33,7 +34,7 @@ class AboutMe extends React.Component {
 						<div className="about-text-cv">
 							<p>Want to know more?</p>
 							<a href="../../images/JoaoUva.pdf">
-								<Button variant="outline-dark">
+								<Button className="about-button" variant="outline-dark">
 									Check my CV
 								</Button>
 							</a>

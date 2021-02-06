@@ -3,20 +3,32 @@
 
 .about-component {
   width: 100vw;
+  background: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
 }
+
+.about-button {
+  background: var(--primaryButtonColor) !important;
+}
+
+.about-button:hover{
+  background: var(--primaryHooverColor) !important;
+}
+
 
 .title {
   font-weight: bolder;
   font-size: 4em;
-  padding-top: 3%;
-  margin-top: 20px;
+  padding-top: 10%;
 }
+
 
 .tilte-line {
   width: 100px;
-  padding-bottom: 5%;
   border-width:5px;
   margin: 0 auto;
+  background: var(--primaryLineColor);
+  margin-bottom: 5%;
 }
 
 .about-main-div {
@@ -90,7 +102,7 @@
   padding: 2%;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 23px 30px -15px rgba(84, 86, 88, 0.25);
+  box-shadow: 0 23px 30px -15px var(--primaryBoxShadow);
 }
 
 .about-details h4 {
@@ -113,7 +125,6 @@
 }
 
 .tech-stack-div h4 {
-  color: black;
   font-size: 1em;
 }
 
@@ -150,6 +161,7 @@
     margin: 20px 2px 20px 2px;
     box-shadow: none;
     border-radius: 50%;
+    background-color: transparent;
 
 }
 
@@ -239,7 +251,7 @@
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
+    color: transparent;
 }
 
 i {
@@ -249,7 +261,7 @@ i {
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
+    color: transparent;
 }
 
 .container .card .face {
@@ -289,7 +301,6 @@ i {
 .container .card .face.face2 {
     position: relative;
     height: 30px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,10 +319,8 @@ i {
 .container .card .face.face2 .content h3 {
     margin: 0 0 0px 0;
     padding: 0;
-    color: #fff;
     font-size: 12px;
     text-align: center;
-    color: #414141;
 } 
 
 .card-image {
