@@ -58,6 +58,7 @@
   bottom: 93vh;
   z-index: 1000;
   cursor: pointer;
+  width: 50px;
 }
 
 .theme-switch-button svg {
