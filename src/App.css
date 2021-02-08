@@ -47,7 +47,6 @@
 .theme-switch-button {
   border: none;
   background: var(--primaryBackgroundColor);
-  opacity: 80%;
   border-radius: 50%;
   cursor: pointer;
   cursor: hand;
