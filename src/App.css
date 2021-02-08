@@ -13,8 +13,8 @@
   [data-theme='dark'] {
     /* dark mode */
     --primaryTextColor: rgb(202, 202, 202);
-    --primaryBackgroundColor: rgba(0, 0, 0, 0.834);
-    --secondaryBackgroundColor: rgba(0, 0, 0, 0.882);
+    --primaryBackgroundColor: rgb(34, 34, 34);
+    --secondaryBackgroundColor: rgb(17, 17, 17);
     --primaryButtonColor: rgb(183, 159, 3) !important;
     --primaryLineColor: rgb(183, 159, 3);
     --primaryHooverColor: rgb(164, 164, 164) !important;
@@ -22,6 +22,7 @@
     --primaryProjectTextColor: rgb(202, 202, 202);
     --primaryBoxShadow: rgba(0, 0, 0, 0.25);
   }
+
 
 .App {
   text-align: center;

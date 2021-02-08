@@ -6,7 +6,7 @@ import Project from './components/Projects';
 import Footer from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from './components/NavigationBar';
-import { Sun, Moon } from "react-feather";
+import { Sun } from "react-feather";
 
 
 function App() {
