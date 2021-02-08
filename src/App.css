@@ -47,17 +47,14 @@
 .theme-switch-button {
   border: none;
   background: var(--primaryBackgroundColor);
-  border-radius: 50%;
-  cursor: pointer;
-  cursor: hand;
+  border-radius: 50px;
   color: var(--primaryTextColor);
   outline: 0;
   margin-top: 7px;
   position: fixed;
   top: 15px;
   right: 15px;
-  position: fixed;
-  left: 2%;
+  left: 15px;
   bottom: 93vh;
   z-index: 1000;
   cursor: pointer;
