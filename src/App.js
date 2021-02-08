@@ -7,17 +7,26 @@ import Footer from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from './components/NavigationBar';
 import { Sun } from "react-feather";
+import { useMediaQuery } from "react-responsive";
 
 
 function App() {
+
+  const systemPrefersDark = useMediaQuery(
+		{
+			query: "(prefers-color-scheme: dark)",
+		},
+		undefined,
+		(prefersDark) => {
+			setDarkMode(prefersDark);
+		}
+  );
   
   
-  const storedDarkMode = localStorage.getItem("DARK_MODE");
-  const [darkMode, setDarkMode] = useState(storedDarkMode);
+  const [darkMode, setDarkMode] = useState(systemPrefersDark);
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   useEffect(() => {
-		console.log(`Is in dark mode? ${darkMode}`);
 		localStorage.setItem("DARK_MODE", darkMode);
   }, [darkMode]);
 

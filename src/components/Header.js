@@ -10,7 +10,7 @@ class Header extends React.Component {
 			<div className="header-component">
 				<div className="header-section">
 					<div className="avatar">
-						<img src="../../images/JU.jpg" alt="Avatar" />
+						<img src="../../images/JU.png" alt="Avatar" />
 					</div>
 					<section className="typewriter-section">
 						<div className="typewriter">
