@@ -9,7 +9,7 @@ import NavigationBar from './components/NavigationBar';
 import { Sun } from "react-feather";
 import { useMediaQuery } from "react-responsive";
 import ReactGA from "react-ga";
-ReactGA.initialize("G-7CN7VEZRQD");
+ReactGA.initialize("UA-29166988-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
