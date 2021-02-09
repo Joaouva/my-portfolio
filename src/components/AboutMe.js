@@ -24,17 +24,20 @@ class AboutMe extends React.Component {
 							website!<br></br> Graduated @ Ironhack, I'm now a
 							proud Web Developer with a good knowledge of
 							front-end and back-end technologies with a huge
-							drive to learn more! I like to fix the little details
-							and build optimized web apps that work on any device
-							with new features that can amaze everyone. I especially
-							love to work in a team and develop great things
-							together. It's always better to celebrate success
-							with others!
+							drive to learn more! I like to fix the little
+							details and build optimized web apps that work on
+							any device with new features that can amaze
+							everyone. I especially love to work in a team and
+							develop great things together. It's always better to
+							celebrate success with others!
 						</p>
 						<div className="about-text-cv">
 							<p>Want to know more?</p>
-							<a href="../../images/JoaoUva.pdf">
-								<Button className="about-button" variant="outline-dark">
+							<a target="_blank" href="../../images/JoaoUva.pdf">
+								<Button
+									className="about-button"
+									variant="outline-dark"
+								>
 									Check my CV
 								</Button>
 							</a>

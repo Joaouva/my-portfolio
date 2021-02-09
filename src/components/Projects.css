@@ -1,7 +1,7 @@
 
 .projects-component {
   width: 100vw;
-  padding-top: 5vh;
+  padding-top: 3vh;
   background: var(--secondaryBackgroundColor);
   color: var(--primaryTextColor);
 }
