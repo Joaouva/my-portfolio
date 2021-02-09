@@ -8,6 +8,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from './components/NavigationBar';
 import { Sun } from "react-feather";
 import { useMediaQuery } from "react-responsive";
+import ReactGA from "react-ga";
+ReactGA.initialize("G-7CN7VEZRQD");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 function App() {
