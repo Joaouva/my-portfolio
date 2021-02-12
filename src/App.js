@@ -9,6 +9,16 @@ import NavigationBar from './components/NavigationBar';
 import { Sun } from "react-feather";
 import { useMediaQuery } from "react-responsive";
 import ReactGA from "react-ga";
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+	gtmId: "GTM-WK34BJ5",
+};
+
+TagManager.initialize(tagManagerArgs);
+
+
+
 ReactGA.initialize("UA-29166988-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
