@@ -22,7 +22,7 @@ class Projects extends React.Component {
 										alt=""
 									/>
 								</div>
-								<ul className="social-media">
+								<ul className="project-more">
 									<li>
 										<a href="https://lebookish.herokuapp.com/">
 											<button
@@ -61,7 +61,7 @@ class Projects extends React.Component {
 								<div className="img-container-project">
 									<img src="../../images/finna.png" alt="" />
 								</div>
-								<ul className="social-media">
+								<ul className="project-more">
 									<li>
 										<a href="https://finna2020.herokuapp.com/">
 											<button
@@ -103,7 +103,7 @@ class Projects extends React.Component {
 										alt=""
 									/>
 								</div>
-								<ul className="social-media">
+								<ul className="project-more">
 									<li>
 										<a href="https://spacehack.netlify.app/">
 											<button
