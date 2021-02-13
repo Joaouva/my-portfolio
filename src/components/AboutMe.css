@@ -9,6 +9,7 @@
 
 .about-button {
   background: var(--primaryButtonColor) !important;
+  height: 60px !important;
 }
 
 .about-button:hover{

@@ -18,7 +18,7 @@ class AboutMe extends React.Component {
 						<h4 className="skills-title">About Me</h4>
 						<p>
 							After a decade working on sales and management roles
-							I decided to switch my career and pursuit my long
+							I decided to switch my career and pursue my long
 							lost love, develop things for the web and became a
 							Web Developer...and look at me now with my own
 							website!<br></br> Graduated @ Ironhack, I'm now a
