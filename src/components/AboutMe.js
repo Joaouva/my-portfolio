@@ -33,7 +33,7 @@ class AboutMe extends React.Component {
 						</p>
 						<div className="about-text-cv">
 							<p>Want to know more?</p>
-							<a target="_blank" href="../../images/JoaoUva.pdf">
+							<a target="_blank" className="cv-button" href="../../images/JoaoUva.pdf">
 								<Button
 									className="about-button"
 									variant="outline-dark"
