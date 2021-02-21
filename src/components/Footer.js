@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Contact from "./Contact";
 
 
 class Footer extends React.Component {
@@ -7,7 +8,9 @@ class Footer extends React.Component {
 		return (
 			<div className="footer-component">
 				<div className="footer" id="footer">
-					<h2>Get in touch!</h2>
+					<div className="contact-form-div">
+						<Contact />
+					</div>
 					<div className="icons">
 						<a href="https://github.com/Joaouva">
 							<img
