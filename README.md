@@ -9,8 +9,8 @@ The page it's fully responsive and I've add some sytles using CSS modules and NP
 New updates I'm currently working on:
 <ul>
 <li> Contact form with backend integration </li>
-<li> Dark/light theme switch </li>
-<li> Some style I would like to change </li>
+<li> Dark/light theme switch </li> - DONE!
+<li> Some style I would like to change </li> - DONE!
 </ul>
 
 Fell more than free to give feedback, it will help me <span>😎</span>
