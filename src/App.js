@@ -10,6 +10,7 @@ import { Sun } from "react-feather";
 import { useMediaQuery } from "react-responsive";
 import ReactGA from "react-ga";
 import TagManager from "react-gtm-module";
+import Contact from './components/ContactFrom';
 
 const tagManagerArgs = {
 	gtmId: "GTM-WK34BJ5",
@@ -53,7 +54,7 @@ function App() {
 			<NavigationBar />
 			<Header />
 			<AboutMe />
-			<Project />
+		   <Project />
 			<Footer />
 		</div>
    );
