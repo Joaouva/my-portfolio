@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container"
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./Contact.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -14,27 +16,24 @@ const useStyles = makeStyles((theme) => ({
 export default function Contact() {
 	const classes = useStyles();
 
-	const [success, setSuccess] = useState(false);
+ const notify = () =>
+		toast(`Message Sent!`, {
+			position: "top-center",
+			autoClose: 3000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: true,
+			draggable: true,
+			progress: undefined,
+		});
 
-	useEffect(() => {
-		if (window.location.search.includes("success=true")) {
-			setSuccess(true);
-		}
-	}, []);
 	
+
 	return (
 		<Container>
 			<h2>Get in touch!</h2>
-			{success && (
-				<p style={{ color: "green" }}>Thanks for your message! </p>
-			)}
 			<hr className="tilte-line"></hr>
-			<form
-				name="contact"
-				method="POST"
-				data-netlify="true"
-				action="/?success=true"
-			>
+			<form name="contact" method="POST" data-netlify="true" action="/">
 				<input type="hidden" name="form-name" value="contact" />
 				<div className="Contact-form">
 					<div className="col-xs-12">
@@ -63,9 +62,11 @@ export default function Contact() {
 							type="submit"
 							className={classes.button}
 							id="submit-button"
+							onClick={notify}
 						>
 							Send
 						</Button>
+						<ToastContainer />
 					</div>
 				</div>
 			</form>
