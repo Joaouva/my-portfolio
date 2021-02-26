@@ -48,7 +48,7 @@
   background-color:#1de49f;
   width: 40px;
   height: 180px;
-  box-shadow: 1px 5px 20px 8px rgba(0,0,0,0.3);
+  box-shadow: 1px 5px 20px 8px var(--primaryBoxShadow);
   transform: translatex(0px);
   transition: 1s ease-in;     
 }
@@ -56,7 +56,7 @@
 .label-project h2{
   transform: rotate(-90deg);
   font-size: 1.5em;
-  color: #f5f5f5;
+  color: #515151;
 }
 
 .container-project {
