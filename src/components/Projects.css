@@ -45,7 +45,7 @@
   position: relative;
   margin-top: 10%;
   margin-right: -2%;
-  background-color:rgb(204, 169, 1);
+  background-color:#1de49f;
   width: 40px;
   height: 180px;
   box-shadow: 1px 5px 20px 8px rgba(0,0,0,0.3);
@@ -62,8 +62,8 @@
 .container-project {
   position: relative;
   margin: 2%;
-  height: 350px;
-  width: 280px;
+  height: 420px;
+  width: 320px;
   overflow: hidden;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
   transition: box-shadow 0.3s ease-out;

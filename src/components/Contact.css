@@ -89,7 +89,13 @@ textarea {
 #submit-button {
     width: 200px !important;
     margin-top: 0 !important;
+    background-color: var(--primaryButtonColor) !important;
 }
+
+#submit-button:hover {
+    background-color: var(--primaryHooverColor) !important;
+}
+
 
 input[type=checkbox] + label {
   color: #ccc;

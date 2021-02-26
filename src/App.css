@@ -3,11 +3,13 @@
 :root {
   /* light-mode / default theme variable values */
   --primaryBackgroundColor: white !important;
-  --headingTextColor: #14ad8c;
+  --headingTextColor: #1de49f;
   --secondaryBackgroundColor: #f5f5f5;
+   --primaryLineColor: #1de49f;
+   --primaryButtonColor: #1de49f !important;
    --primaryProjetCardColor: rgb(255, 255, 255);
    --primaryBoxShadow: rgba(84, 86, 88, 0.25);
-   --avatarBg: rgb(64, 244, 109);
+   --avatarBg: #1de49f;
    --primaryHooverColor: rgb(61, 61, 61) !important;
 }
 
@@ -17,8 +19,8 @@
     --primaryTextColor: rgb(202, 202, 202);
     --primaryBackgroundColor: rgb(34, 34, 34) !important;
     --secondaryBackgroundColor: rgb(17, 17, 17);
-    --primaryButtonColor: rgb(183, 159, 3) !important;
-    --primaryLineColor: rgb(183, 159, 3);
+    --primaryButtonColor: #1de49f !important;
+    --primaryLineColor: #1de49f;
     --primaryHooverColor: rgb(164, 164, 164) !important;
     --primaryProjetCardColor: rgb(44, 44, 44);
     --primaryProjectTextColor: rgb(202, 202, 202);
