@@ -4,6 +4,7 @@
   /* light-mode / default theme variable values */
   --primaryBackgroundColor: white !important;
   --headingTextColor: #1de49f;
+  --highlightTextColor:#129567;
   --secondaryBackgroundColor: #f5f5f5;
    --primaryLineColor: #1de49f;
    --primaryButtonColor: #1de49f !important;
@@ -17,6 +18,8 @@
   [data-theme='dark'] {
     /* dark mode */
     --primaryTextColor: rgb(202, 202, 202);
+    --headingTextColor: #1de49f;
+    --highlightTextColor:#1de49f;
     --primaryBackgroundColor: rgb(34, 34, 34) !important;
     --secondaryBackgroundColor: rgb(17, 17, 17);
     --primaryButtonColor: #1de49f !important;
