@@ -176,7 +176,7 @@
     width: 100%;
     height: 100%;
     transition: 0.7s;
-    z-index: 2;
+    
 }
 
 .container .card:nth-child(1) .icon {
@@ -243,26 +243,6 @@
 }
 
 
-
-
-.container .card .icon .fa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-}
-
-i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s; 
-}
-
 .container .card .face {
     width: 70px;
     height: 70px;
@@ -275,7 +255,6 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     transform: translateY(0px);
     border-radius: 50%;
 }

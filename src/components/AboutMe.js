@@ -18,10 +18,10 @@ class AboutMe extends React.Component {
 					<div className="about-text">
 						<h4 className="skills-title">About Me</h4>
 						<p>
-							After a decade working on sales and management roles
-							I decided to switch my career and pursue my long
-							lost love, develop things for the web and became a
-							Web Developer...and look at me now with my own
+							After a decade working on sales and management roles<span> </span>
+							<span style={{ color: "var(--highlightTextColor" }}>I decided to switch my career and pursue my long
+							lost love: develop things for the web and became a
+							Web Developer</span>...and look at me now with my own
 							website!<br></br>Graduated @ Ironhack, I'm now a
 							proud Web Developer with a<span> </span>
 							<span style={{ color: "var(--highlightTextColor" }}>
@@ -35,18 +35,6 @@ class AboutMe extends React.Component {
 							things together. It's always better to celebrate
 							success with others!
 						</p>
-						<div className="about-text-cv">
-							<p>Want to know more?</p>
-							<a target="_blank" href="../../images/JoaoUva.pdf">
-								<Button
-									id="cv-button"
-									className="about-button"
-									variant="outline-dark"
-								>
-									Check my CV
-								</Button>
-							</a>
-						</div>
 					</div>
 					<div className="about-photo">
 						<img src="../../images/AboutMe.png" alt="me" />
