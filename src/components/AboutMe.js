@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
 import ScrollTop from "./ScrollTop";
-import { Button }from "react-bootstrap";
 
 
 
