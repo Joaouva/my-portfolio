@@ -55,15 +55,15 @@ class Projects extends React.Component {
 						</div>
 						<div className="project-item">
 							<div className="label-project">
-								<h2>Finna</h2>
+								<h2>KinderGarden</h2>
 							</div>
 							<div className="container-project">
 								<div className="img-container-project">
-									<img src="../../images/finna.png" alt="" />
+									<img src="../../images/kinderGarden.png" alt="" />
 								</div>
 								<ul className="project-more">
 									<li>
-										<a href="https://finna2020.herokuapp.com/">
+										<a href="https://joaouva.github.io/schools/">
 											<button
 												type="button"
 												className="btn btn-danger"
@@ -73,7 +73,7 @@ class Projects extends React.Component {
 										</a>
 									</li>
 									<li>
-										<a href="https://github.com/Joaouva/finnaApp">
+										<a href="https://github.com/Joaouva/schools">
 											<button
 												type="button"
 												className="btn btn-dark"
@@ -84,10 +84,9 @@ class Projects extends React.Component {
 									</li>
 								</ul>
 								<div className="user-info">
-									<h2>Finna App</h2>
+									<h2>Kinder Garden search</h2>
 									<span>
-										App to unleash the music stuck in your
-										head
+										Was searching a new school for my daughter...why not making an app?
 									</span>
 								</div>
 							</div>

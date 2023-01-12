@@ -22,10 +22,9 @@ class AboutMe extends React.Component {
 							lost love: develop things for the web and became a
 							Web Developer</span>...and look at me now with my own
 							website!<br></br>Graduated @ Ironhack, I'm now a
-							proud Web Developer with a<span> </span>
+							proud Web Developer <span> </span>
 							<span style={{ color: "var(--highlightTextColor" }}>
-								good knowledge of front-end and back-end
-								technologies with a huge drive to learn more!
+								currently working at Studio Graphene and helping making awesome things. 
 							</span>
 							<span> </span>I like to fix the little details and
 							build optimized web apps that work on any device
