@@ -2,8 +2,9 @@ import React from "react";
 import "./Footer.css";
 import Contact from "./Contact";
 
-
 class Footer extends React.Component {
+	year = new Date().getFullYear();
+
 	render() {
 		return (
 			<div className="footer-component">
@@ -37,7 +38,7 @@ class Footer extends React.Component {
 					<h4>
 						Made with <span>❤️</span>
 					</h4>
-					<h3>Copyright © 2021 João Uva</h3>
+					<h3>Copyright © {this.year} João Uva</h3>
 				</div>
 			</div>
 		);

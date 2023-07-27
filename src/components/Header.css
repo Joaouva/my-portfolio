@@ -12,6 +12,7 @@
   justify-content: center;
   background-color: rgb(26, 26, 26); 
   border-bottom: darkgray;
+  height: 100vh;
   
 }
 
@@ -25,7 +26,6 @@
 
 .typewriter {
   width: fit-content;
-  height: 30vh !important;
   align-items: center;
   justify-content: center;
   margin: 0 auto;

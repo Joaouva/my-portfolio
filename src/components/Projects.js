@@ -86,7 +86,7 @@ class Projects extends React.Component {
 								<div className="user-info">
 									<h2>Kinder Garden search</h2>
 									<span>
-										Was searching a new school for my daughter...why not making an app?
+										Was searching a new school for my daughter, why not making an app?
 									</span>
 								</div>
 							</div>

@@ -88,17 +88,13 @@ class AboutMe extends React.Component {
 									<div className="face face1">
 										<div className="content">
 											<div className="icon">
-												<img
-													className="card-image"
-													src="../../images/express.png"
-													alt="me"
-												/>
+												<h2 className="ts-logo">TS</h2>
 											</div>
 										</div>
 									</div>
 									<div className="face face2">
 										<div className="content">
-											<h3>Express.js</h3>
+											<h3>Typescript</h3>
 										</div>
 									</div>
 								</div>
